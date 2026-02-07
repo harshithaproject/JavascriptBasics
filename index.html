@@ -9,7 +9,13 @@
 <body>
     <h1>DOM Demo for Practice</h1>
     <h3>Topic 1: Starter Code</h3>
-    <button>Click Me!</button>
+    <form id="text-form">
+        <label for="textInput">Enter text:</label>
+        <input type="text" id="textInput" name="textInput" placeholder="Type here">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="result" aria-live="polite"></div>
 
  <script src="index.js"></script>
 </body>
